@@ -1,0 +1,71 @@
+.body {
+  background-color: rgb(244, 226, 206);
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin-left: 120px;
+  margin-right: 120x;
+}
+
+.fish-card {
+    border: 1px solid #ffeded;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .fish-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .fish-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .fish-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin: 8px 0;
+
+  }
+  
+  .fish-info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .buy-button {
+    width: 150px;
+    height: 40px;
+    background-color: #79be7e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #202721;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .buy-button:hover {
+    background-color: #92e197;
+    transform: scale(1.03);
+  }
