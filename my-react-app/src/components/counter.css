@@ -1,0 +1,35 @@
+/* Counter Container */
+.counter {
+    text-align: center;
+    margin-top: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .counter h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #292929;
+  }
+
+  .counter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+
+  .counter-buttons button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #79be7e;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .counter-buttons button:hover {
+    background-color: #92e197;
+    transition: 0.3s;
+    scale: (1.01);
+  }

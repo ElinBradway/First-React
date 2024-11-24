@@ -1,46 +1,29 @@
-import ItemCard from "./components/itemCard";
 
-import {
-  fish1,
-  fish2,
-  fish3,
-  fish4,
-  fish5
-} from "./assets/images"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import "./components/Item-card.css"
+//import "./components/Item-card.css"
+//import "./components/navbar.css"
+//import React from "react";
+import Counter from "./components/counter.jsx";
+import NavBar from "./NavBar.jsx";
+import Footer from "./Footer.jsx";
+import Home from "./pages/home.jsx";
+import Shop from "./pages/shop.jsx";
+import About from "./pages/about.jsx";
 
 function App() {
 return (
-  <div className='Container'>
-    <h1>Exotic fish for sale!</h1>
-    <div className='card-container'>
-    <ItemCard 
-      img={fish1} 
-      title='Goldfish' 
-      info='Goldfish are known for their large size, bright color, and ability to swim through water.'
-    />
-        <ItemCard 
-      img={fish2} 
-      title='Goldfish' 
-      info='Goldfish are known for their large size, bright color, and ability to swim through water.'
-    />
-        <ItemCard 
-      img={fish3} 
-      title='Goldfish' 
-      info='Goldfish are known for their large size, bright color, and ability to swim through water.'
-    />
-        <ItemCard 
-      img={fish4} 
-      title='Goldfish' 
-      info='Goldfish are known for their large size, bright color, and ability to swim through water.'
-    />
-        <ItemCard 
-      img={fish5} 
-      title='Goldfish' 
-      info='Goldfish are known for their large size, bright color, and ability to swim through water.'
-    /></div>
-  </div>
+<>
+<BrowserRouter>
+<NavBar />
+<Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/shop" element={<Shop />} />
+  <Route path="/about" element={<About />} />
+</Routes>
+<Footer />
+</BrowserRouter>
+</>
 );
 
 }

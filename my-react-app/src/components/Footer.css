@@ -1,0 +1,33 @@
+.footer {
+    background-color: #ffffff;
+    color: #292929;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    border-top: solid 1px #292929;
+  }
+  
+  .footer p {
+    margin: 0.5rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .footer-links a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #292929;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a:hover {
+    color: #ff5733;
+    transition: 0.3s;
+  }
