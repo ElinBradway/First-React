@@ -8,6 +8,7 @@ import Home from "./pages/home.jsx";
 import Shop from "./pages/shop.jsx";
 import About from "./pages/about.jsx";
 import Color from "./pages/color.jsx";
+import ToDoList from "./pages/to-do-list.jsx";
 
 function App() {
 return (
@@ -19,6 +20,7 @@ return (
   <Route path="/shop" element={<Shop />} />
   <Route path="/about" element={<About />} />
   <Route path="/color" element={<Color />} />
+  <Route path="/to-do-list" element={<ToDoList />} />
 </Routes>
 <Footer />
 </BrowserRouter>

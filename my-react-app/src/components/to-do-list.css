@@ -1,0 +1,81 @@
+.todo-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .todo-container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #292929;
+  }
+  
+  /* Input and Button */
+  .todo-container input[type="text"] {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  
+  .todo-container button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #79be7e;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-container button:hover {
+    background-color: #92e197;
+    transform: scale(1.03);
+  }
+
+  .todo-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .todo-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .todo-container li span {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+
+  .todo-container li button {
+    background-color: #ff4d4d;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-container li button:hover {
+    background-color: #cc0000;
+    transform: scale(1.03);
+  }

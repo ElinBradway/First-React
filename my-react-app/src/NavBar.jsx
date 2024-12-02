@@ -13,6 +13,7 @@ function NavBar() {
         <li><Link to="/shop">Shop</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/color">Color</Link></li>
+        <li><Link to="/to-do-list">To-Do List</Link></li>
       </ul>
     </nav>
   );
